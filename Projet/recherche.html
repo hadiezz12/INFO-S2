@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Goers - Recherche</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Festival Goers</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="search">
+            <h2>Rechercher des Festivals</h2>
+            <form action="submit_recherche" method="get">
+                <div class="form-group">
+                    <label for="search-term">Nom du festival ou lieu</label>
+                    <input type="text" id="search-term" name="search-term" required>
+                </div>
+                <button type="submit" class="btn">Rechercher</button>
+            </form>
+            <div class="search-results">
+                <h3>Résultats de la recherche</h3>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Festival Goers - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
