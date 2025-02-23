@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Gestion des utilisateurs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body class="admin-page">
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">Festival Goers</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="admin.html" class="active">Admin</a></li>            
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section class="admin-panel">
+            <h1>Gestion des utilisateurs</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Email</th>
+                        <th>Statut</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="user-list">
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td><span class="status status-normal">Normal</span></td>
+                    <td>
+                        <button class="action-btn vip-btn" onclick="toggleVip(this)">VIP</button>
+                        <button class="action-btn ban-btn" onclick="banUser(this)">Bannir</button>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Festival Goers - Tous droits réservés</p>
+    </footer>
+</body>
+</html>

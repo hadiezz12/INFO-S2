@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Goers - Connexion</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">Festival Goers</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="connexion.html" class="active">Connexion</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login">
+            <h2>Connexion à Festival Goers</h2>
+            <form action="submit_connexion" method="post">
+                <div class="form-group">
+                    <label for="email" class="text">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="txt">Mot de passe</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Se connecter</button>
+            </form>
+            <p>Pas encore inscrit ? <a href="inscription.html">Créez un compte</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Festival Goers - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
