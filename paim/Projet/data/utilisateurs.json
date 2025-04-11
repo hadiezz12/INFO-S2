@@ -1,0 +1,83 @@
+[
+    {
+        "username": "William",
+        "email": "willi@gmail.com",
+        "password": "$2y$10$IvTX.3Yf\/L8OA8lSNwW5Re0BySMmV.6UkKcZUXEB9tqTbhxrecfSC",
+        "role": "admin",
+        "dates": {
+            "inscription": "2025-04-05 13:26:57",
+            "last_login": null
+        },
+        "infos": {
+            "bio": ""
+        },
+        "profile_picture": "..\/images\/avatars\/avatar1.jpeg",
+        "voyages": [
+            {
+                "id": 3,
+                "tickets": 1,
+                "date_paiement": "2025-04-06"
+            },
+            {
+                "id": 1,
+                "date_paiement": "2025-04-06"
+            }
+        ]
+    },
+    {
+        "username": "hadi",
+        "email": "hadi-ezz@outlook.com",
+        "password": "$2y$10$dLwVtTeGjmMV0H62PCKq.l9bKhx0OPXm0QNIUq25qoXXQ5BPr5h6",
+        "role": "admin",
+        "dates": {
+            "inscription": "2025-04-05 14:00:00",
+            "last_login": null
+        },
+        "infos": {
+            "bio": "Admin passionn\u00e9 de festivals"
+        },
+        "profile_picture": "..\/images\/avatars\/avatar2.jpeg"
+    },
+    {
+        "username": "brayan",
+        "email": "brayan@example.com",
+        "password": "$2y$10$00sN.MoLYpfjMBpadUW44ecgi6aCcRa44N5P8zXKG.YPxsCraMpFa",
+        "role": "normal",
+        "dates": {
+            "inscription": "2025-04-05 14:15:00",
+            "last_login": null
+        },
+        "infos": {
+            "bio": "Fan de festivals \u00e9lectro"
+        },
+        "profile_picture": "..\/images\/avatars\/avatar3.jpg"
+    },
+    {
+        "username": "emma",
+        "email": "emma@admin.com",
+        "password": "$2y$10$K5zX9jPqQwRtYuM2vL8N3eB7kGfH1sWn4JpOiUyVcTdA2bExmZkQa",
+        "role": "normal",
+        "dates": {
+            "inscription": "2025-04-05 14:30:00",
+            "last_login": null
+        },
+        "infos": {
+            "bio": "Aventuri\u00e8re des sc\u00e8nes live"
+        },
+        "profile_picture": "..\/images\/avatars\/avatar2.jpeg"
+    },
+    {
+        "username": "lucas",
+        "email": "lucas@admin.com",
+        "password": "$2y$10$mN8kL2QwPxRtYuV3zA9B4fC6jHdI0tXo5KpOiUyVcTdA2bExmZkQa",
+        "role": "normal",
+        "dates": {
+            "inscription": "2025-04-05 14:45:00",
+            "last_login": null
+        },
+        "infos": {
+            "bio": "Amateur de voyages festifs"
+        },
+        "profile_picture": "..\/images\/avatars\/avatar1.jpeg"
+    }
+]
