@@ -1,0 +1,164 @@
+[
+    {
+        "username": "William",
+        "email": "william@gmail.com",
+        "password": "$2y$10$3.qZ4TTo\/UHUI9C86VvS6O7JsU.ReYjsyB8Niv71VHi2omeBr.yYi",
+        "role": "admin",
+        "dates": {
+            "inscription": "2025-05-07 09:36:07",
+            "last_login": null
+        },
+        "infos": {
+            "bio": "Incroyable ce site !"
+        },
+        "profile_picture": "..\/images\/avatars\/avatar2.jpeg",
+        "voyages": [
+            {
+                "id": 12,
+                "tickets": 1,
+                "date_paiement": "2025-05-12 13:15:55",
+                "statut_paiement": "payé",
+                "transaction_id": "TRANS1747055736William"
+            },
+            {
+                "id": 3,
+                "tickets": 3,
+                "date_paiement": "2025-05-12 13:17:03",
+                "statut_paiement": "payé",
+                "transaction_id": "TRANS1747055805William"
+            }
+        ],
+        "pending_payments": {
+            "efb0f892fee7780affa0bc65504857b1": {
+                "token": "efb0f892fee7780affa0bc65504857b1",
+                "user_id": "William",
+                "transaction": "TRANS1747055801William",
+                "montant": "180.00",
+                "timestamp": 1747055801
+            },
+            "d20c556cbe18993899d3bb1dbe85d14f": {
+                "token": "d20c556cbe18993899d3bb1dbe85d14f",
+                "user_id": "William",
+                "transaction": "TRANS1747066537William",
+                "montant": "60.00",
+                "timestamp": 1747066537
+            },
+            "d5b130bfab951249da6cdb6e59fe63f1": {
+                "token": "d5b130bfab951249da6cdb6e59fe63f1",
+                "user_id": "William",
+                "transaction": "TRANS1747066566William",
+                "montant": "60.00",
+                "timestamp": 1747066566
+            },
+            "0a6cb2ff3c004a997f9832a677a8f576": {
+                "token": "0a6cb2ff3c004a997f9832a677a8f576",
+                "user_id": "William",
+                "transaction": "TRANS1747066590William",
+                "montant": "60.00",
+                "timestamp": 1747066590
+            },
+            "f09ed1e9b833d3ad731d4424fc02b596": {
+                "token": "f09ed1e9b833d3ad731d4424fc02b596",
+                "user_id": "William",
+                "transaction": "TRANS1747067662William",
+                "montant": "150.00",
+                "timestamp": 1747067662
+            }
+        }
+    },
+    {
+        "username": "Hadi",
+        "email": "hadi@gmail.com",
+        "password": "$2y$10$TGsPp\/Aac0s5LhWaqdJIfuVYV6YnGNhK\/Snx2.1XRvRJvRunkuN1G",
+        "role": "normal",
+        "dates": {
+            "inscription": "2025-05-07 09:44:43",
+            "last_login": null
+        },
+        "statut": "vip"
+    },
+    {
+        "username": "Brayan",
+        "email": "brayan@gmail.com",
+        "password": "$2y$10$BzNZJoVSbbBU8f4Uyh1jeO3xJGVu5LPS5Y94dECr24SVXChg0hBP6",
+        "role": "normal",
+        "dates": {
+            "inscription": "2025-05-07 09:45:02",
+            "last_login": null
+        },
+        "statut": "banned"
+    },
+    {
+        "username": "Romain",
+        "email": "romain@gmail.com",
+        "password": "$2y$10$09EvmvuF3S8lvPbafqoFhOSwydzgRKbd3Wk7LYNM\/YzQkoMy7lUTW",
+        "role": "normal",
+        "dates": {
+            "inscription": "2025-05-07 09:48:06",
+            "last_login": null
+        }
+    },
+    {
+        "username": "hhh",
+        "email": "h@fh.com",
+        "password": "$2y$10$Ma8pBlsgcvRn7PlDjUHnBeGyaS6vyG6PFp21ujoT2rY6xRhkNibCm",
+        "role": "admin",
+        "dates": {
+            "inscription": "2025-05-12 16:47:36",
+            "last_login": null
+        },
+        "voyages": [
+            {
+                "id": 12,
+                "tickets": 1,
+                "date_paiement": "2025-05-12 16:48:07",
+                "statut_paiement": "payé",
+                "transaction_id": "TRANS1747068476hhh"
+            },
+            {
+                "id": 5,
+                "tickets": 1,
+                "date_paiement": "2025-05-12 16:48:34",
+                "statut_paiement": "payé",
+                "transaction_id": "TRANS1747068503hhh"
+            },
+            {
+                "id": 3,
+                "tickets": 3,
+                "date_paiement": "2025-05-12 17:11:41",
+                "statut_paiement": "payé",
+                "transaction_id": "TRANS1747069884hhh"
+            },
+            {
+                "id": 8,
+                "tickets": 6,
+                "date_paiement": "2025-05-12 17:11:41",
+                "statut_paiement": "payé",
+                "transaction_id": "TRANS1747069884hhh"
+            }
+        ],
+        "pending_payments": {
+            "facaeec86e7bb8cd38d30d59f6ef316c": {
+                "token": "facaeec86e7bb8cd38d30d59f6ef316c",
+                "user_id": "hhh",
+                "transaction": "TRANS1747069872hhh",
+                "montant": "380.00",
+                "timestamp": 1747069872
+            },
+            "048a1065d304f0af633f1e0f04a76df1": {
+                "token": "048a1065d304f0af633f1e0f04a76df1",
+                "user_id": "hhh",
+                "transaction": "TRANS1747069877hhh",
+                "montant": "780.00",
+                "timestamp": 1747069877
+            },
+            "37aaef4a2da5883ae54d5339538cb863": {
+                "token": "37aaef4a2da5883ae54d5339538cb863",
+                "user_id": "hhh",
+                "transaction": "TRANS1747069880hhh",
+                "montant": "1140.00",
+                "timestamp": 1747069880
+            }
+        }
+    }
+]

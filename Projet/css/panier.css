@@ -1,0 +1,26 @@
+.shopping-bag-float {
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    width: 64px;
+    height: 64px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s;
+    border: 2px solid #5A8DEE;
+}
+.shopping-bag-float:hover {
+    box-shadow: 0 8px 32px rgba(90,141,238,0.25);
+    transform: scale(1.08);
+}
+.shopping-bag-float img {
+    width: 36px;
+    height: 36px;
+    display: block;
+}
